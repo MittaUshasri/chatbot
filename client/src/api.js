@@ -1,7 +1,7 @@
 export const fetchResponse =  async(chat) => {
     try {
         // after depoloyment you should change the fetch URL below
-        const response = await fetch('https://chatbot-noat.onrender.com/', { 
+        const response = await fetch('https://chatbot-noat.onrender.com', { 
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
